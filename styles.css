@@ -45,7 +45,7 @@ body{
 .title{
     font-size: 2.2rem;
     line-height: 2.3rem;
-    margin: 1rem 0 1rem 0;
+    margin-top: 1rem;
     font-weight: 800;
 }
 
@@ -53,7 +53,7 @@ body{
     font-size: 1rem;
     line-height: 1.5rem;
     font-weight: 400;
-    margin: 1rem 0 1rem 0;
+    margin: 1rem 0 3rem 0;
 }
 
 .button{
@@ -62,7 +62,7 @@ body{
     font-size: 1rem;
     color: var(--branco);
     border-radius: .5rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
     border: 0;
     text-decoration: none;
 }
@@ -74,7 +74,7 @@ body{
 
 .img-vet{
     text-align: center;
-    margin: 2rem 0;
+    margin: 3rem 0;
 }
 
 .about-me{
@@ -83,11 +83,11 @@ body{
 
 .title-about-me{
     line-height: 2.5rem;
-    margin-bottom: 2rem;
+    margin: 1rem 0;
 }
 
 .text-about-me{
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .title-list{
@@ -126,13 +126,13 @@ body{
     margin: 2rem 0;
 }
 
-.button-cta{
-    margin-top: 2rem;
-}
+
 
 .img-cta{
     margin-top: -1rem;
 }
+
+
 
 
 @media only screen and (min-width: 900px) {
