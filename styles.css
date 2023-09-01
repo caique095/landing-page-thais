@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,700;0,900;1,700;1,900&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+:root{
+    --rosa-pink: #F59CBA;
+    --rosa-pink_bg: #dd83a1; 
+    --branco: #fdfdfd;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    width: 20rem;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--branco);
+    margin: 0 1rem;
+}
+
+.header{
+
+    margin: 2rem;
+}
+
+.header-img{
+    width: 5rem;
+}
+
+.hero{
+    text-align: center;
+    line-height: 2rem;
+}
+
+.title{
+    font-size: 2.2rem;
+    line-height: 2.3rem;
+    margin: 1rem 0 1rem 0;
+    font-weight: 800;
+}
+
+.text{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    margin: 1rem 0 1rem 0;
+}
+
+.button{
+    background-color: var(--rosa-pink);
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    color: var(--branco);
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+    border: 0;
+}
+
+.button:hover{
+    background-color: var(--rosa-pink_bg);
+    transition: ease .3s;
+}
+
+.img-vet{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.about-me{
+    text-align: center;
+}
+
+.title-about-me{
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.text-about-me{
+    margin-bottom: 2rem;
+}
+
+.title-list{
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 2rem;
+}
+
+.container-icons{
+    display: flex;
+}
+
+.icons{
+    margin-right: 1rem;
+}
+
+.icons-img{
+    width: 4rem;
+}
+
+.title-icons{
+    margin-bottom: 1rem;
+}
+
+.icons-text{
+    line-height: 0;
+    margin: 1rem 0;
+}
+
+.list{
+    margin: 1rem 0;
+}
+
+.container-cta{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.button-cta{
+    margin-top: 2rem;
+}
+
+.img-cta{
+    margin-top: -1rem;
+}
+
+
+@media only screen and (min-width: 900px) {
+
+.list{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+}
