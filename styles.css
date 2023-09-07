@@ -26,6 +26,7 @@ body{
     align-items: center;
     background-color: var(--branco);
     margin: 0 1rem;
+    background-color: var(--branco);
 }
 
 .header{
